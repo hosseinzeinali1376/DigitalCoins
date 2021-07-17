@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:id="@+id/mFrameLayout"
+    tools:context=".view.buysellactivity.menufragment.MenuFragment">
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/Theme.DigitalCoins.Button.UnelevatedButton_menu_sell"
+        android:id="@+id/mBtn__sell"
+        android:layout_width="280dp"
+        android:layout_marginTop="350dp"
+        android:layout_height="70dp"
+        android:text="فروش"
+        android:shadowColor="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        android:padding="2dp">
+
+    </com.google.android.material.button.MaterialButton>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/mBtn__myanginVAsod"
+        android:layout_width="280dp"
+        style="@style/Theme.DigitalCoins.Button.UnelevatedButton_menu_average"
+        android:layout_height="70dp"
+        android:text="میانگین و سود"
+        android:layout_marginTop="10dp"
+        android:shadowColor="#FFFFFF"
+        android:layout_below="@+id/mBtn__sell"
+        android:layout_centerHorizontal="true"
+        android:padding="2dp">
+
+    </com.google.android.material.button.MaterialButton>
+
+</RelativeLayout>

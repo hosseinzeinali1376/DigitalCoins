@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">DigitalCoins</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">Captain America</string>
+    <string name="team">Avengers</string>
+    <string name="createdby">Joe Simon</string>
+    <string name="about_componi">اینوستو کاملا رایگان است و برای مدیریت دارایی و سبد رمزارزها طراحی شده.
+           با استفاده از این برنامه شما میتونید میزان سود وزیان خود را بصورت لحظه ای مدیریت کنید.
+    در صورت تمایا میتوانید با وارد کردن APIKEY و SECRETKEY به صرافی بایننس متصل شوید.این برامه هیچگونه تراکنشی انجام نمی دهد و فقط
+    وضعیت پورتفو دارایی های شما را نمایش میدهد.</string>
+
+    <string-array name="city_list">
+        <item>بیت کوین</item>
+        <item>اتریوم</item>
+        <item>بایننس کوین</item>
+        <item>ریپل</item>
+        <item>استلار</item>
+        <item>لایت کوین</item>
+        <item>اتریم کلاسیک</item>
+        <item>دوج کوین</item>
+        <item>اییاس</item>
+        <item>بایننس یو اس دی</item>
+    </string-array>
+
+    <string-array name="coins">
+        <item>بیت کوین</item>
+        <item>اتریوم</item>
+        <item>بایننس کوین</item>
+        <item>ریپل</item>
+        <item>استلار</item>
+        <item>لایت کوین</item>
+        <item>اتریم کلاسیک</item>
+        <item>دوج کوین</item>
+        <item>اییاس</item>
+        <item>بایننس یو اس دی</item>
+    </string-array>
+</resources>

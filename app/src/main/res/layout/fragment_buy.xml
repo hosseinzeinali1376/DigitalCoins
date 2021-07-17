@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context="com.example.digitalcoins.view.buysellactivity.buyfragment.BuyFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_margin="1dp"
+        android:background="#4CAF50"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="30dp"
+            android:background="#4CAF50"
+            android:text="تراکنش خرید"
+            android:textColor="#fff"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txt_mablagh_buy"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="100dp"
+        android:hint="مبلغ"
+        android:padding="1dp"
+        app:boxBackgroundColor="#fff"
+        app:counterEnabled="true"
+        app:counterMaxLength="12"
+        app:endIconMode="clear_text"
+        app:errorEnabled="true"
+        app:helperTextTextColor="#FF1100"
+        app:prefixText="">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_mablagh_buy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLength="13" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txt_meghdar_buy"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="173dp"
+        android:hint="مقدار"
+        android:padding="1dp"
+        app:boxBackgroundColor="#fff"
+        app:counterEnabled="true"
+        app:counterMaxLength="12"
+        app:endIconMode="clear_text"
+        app:errorEnabled="true"
+        app:helperTextTextColor="#FF1100"
+        app:prefixText="">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_meghdar_buy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLength="13"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_date_buy"
+        style="@style/Theme.DigitalCoins.Button.UnelevatedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="244dp"
+        android:hint="تاریخ"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.Dense.ExposedDropdownMenu"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="310dp"
+        app:startIconDrawable="@drawable/ic_money">
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView_buy"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:inputType="none"
+            android:hint="ارزها" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/txt_buy_7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="330dp"
+        android:layout_marginTop="120dp"
+        android:padding="1dp"
+        android:text="مبلغ :"
+        android:textColor="#E4E4E4"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_buy_8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="330dp"
+        android:layout_marginTop="180dp"
+        android:padding="1dp"
+        android:text="مقدار :"
+        android:textColor="#E4E4E4"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/txt_buy_9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="330dp"
+        android:layout_marginTop="244dp"
+        android:padding="1dp"
+        android:text="تاریخ :"
+        android:textColor="#E4E4E4"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/txt_buy_10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="330dp"
+        android:layout_marginTop="306dp"
+        android:padding="1dp"
+        android:text="نوع ارز :"
+        android:textColor="#E4E4E4"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_save_buy"
+        style="@style/Theme.DigitalCoins.Button.UnelevatedButton_Buy"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:shadowColor="#fff"
+        android:text="تایید"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/img_background_buy"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#92000000"
+        android:visibility="gone" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_save_calender_buy"
+        style="@style/Theme.DigitalCoins.Button.UnelevatedButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="40dp"
+        android:text="ذخیره"
+        android:visibility="gone" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_cancel_calender_buy"
+        style="@style/Theme.DigitalCoins.Button.UnelevatedButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+        android:text="خروخ"
+        android:visibility="gone" />
+
+
+    <DatePicker
+        android:id="@+id/datePicker_buy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="#fff"
+        android:datePickerMode="calendar"
+        android:visibility="gone" />
+
+</RelativeLayout>
